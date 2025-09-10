@@ -1,6 +1,9 @@
-# Bienvenue sur Pegase LCA
+---
+layout: home
+title: "Bienvenue sur Pegase LCA"
+---
 
-![Présentation de Pegase LCA](/assets/images/presentation.jpg)
+<img src="{{ '/assets/images/pegase_hero.png' | relative_url }}" alt="Pegase LCA - Investissement de holding" style="max-width:100%; border-radius:12px;">
 
-Ceci est mon premier blog sur l’investissement de holding.  
-Restez connectés pour les prochains articles !
+Bienvenue sur mon blog dédié à **l’investissement de holding** (immobilier, optimisation, fiscalité).  
+Abonnez-vous pour suivre mes publications.
