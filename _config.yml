@@ -1,10 +1,31 @@
 title: "Pegase LCA"
-description: "Blog sur l’investissement de holding"
+description: "Blog sur l’investissement de holding (immobilier, optimisation, fiscalité)"
 theme: minima
 
-# Afficher un logo dans l’en-tête
-logo: /assets/images/pegase_logo.png
+# Apparence du thème
+minima:
+  skin: auto
 
-# Contrôler le menu du haut (sinon il met toutes les pages)
+# Afficher un logo dans l’en-tête
+logo: /posts/_posts/pegase_logo.png
+
+# Plugins SEO et flux
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Contrôler le menu du haut
 header_pages:
   - index.md
+  - categories.md
+  - about.md
+
+author:
+  name: "Pegase LCA"
+  avatar: /posts/_posts/pegase_logo.png
+
+social_links:
+  - { platform: github, user_url: "https://github.com/Mehdipegase" }
+
+markdown: kramdown
+permalink: pretty
