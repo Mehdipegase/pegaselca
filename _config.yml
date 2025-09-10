@@ -1,4 +1,10 @@
-author:
-  name   : "Pegase LCA"
-  avatar : "/assets/images/presentation.jpg"
+title: "Pegase LCA"
+description: "Blog sur l’investissement de holding"
+theme: minima
 
+# Afficher un logo dans l’en-tête
+logo: /assets/images/pegase_logo.png
+
+# Contrôler le menu du haut (sinon il met toutes les pages)
+header_pages:
+  - index.md
